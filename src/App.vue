@@ -1,19 +1,22 @@
 <template>
-  <div>
-      <h1>{{ title }}</h1>
-  </div>
+    <AppTitle />
 </template>
 
 <script>
+  import AppTitle from './components/AppTitle.vue'
   export default {
+    name: 'App',
+    components: {
+      AppTitle
+    },
     data(){
       return {
-        title: "La mia prima app con Vite!"
+      
       }
     }
   }
 </script>
 
 <style lang="scss" scoped>
-
+ 
 </style>
