@@ -7,7 +7,7 @@
   export default {
     name: 'App',
     components: {
-      AppTitle
+      AppTitle,
     },
     data(){
       return {
